@@ -17,8 +17,8 @@ fun List<Int>.cheaper(): Int {
 }
 
 fun main(args: Array<String>) {
-    val bugers = readLine(3)
-    val drinks = readLine(2)
+    val bugers = readLineNumberList(3)
+    val drinks = readLineNumberList(2)
 //    val bugers = arrayListOf(800, 700, 900)
 //    val drinks = arrayListOf(198, 330)
 
