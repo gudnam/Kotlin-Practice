@@ -1,4 +1,4 @@
-fun readLinePrice(count: Int): MutableList<Int> {
+fun readLine(count: Int): MutableList<Int> {
     var things: MutableList<Int> = arrayListOf()
     for (i in 1..count) {
         val input = readLine()
