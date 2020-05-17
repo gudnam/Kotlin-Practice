@@ -3,11 +3,6 @@ const val maxPrice = 2000
 const val minPrice = 100
 const val salePrice = 50
 
-fun checkIsValidPrice(price: Int) {
-    assert(price >= minPrice)
-    assert(price <= maxPrice)
-}
-
 fun List<Int>.cheaper(): Int {
     var value = maxPrice
     for (number in this) {

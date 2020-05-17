@@ -15,7 +15,6 @@ fun readLineNumber(): Int {
         0
     }
     price?.let {
-        checkIsValidPrice(it)
         number = it
     }
     return number
