@@ -19,3 +19,10 @@ fun readLineNumber(): Int {
     }
     return number
 }
+
+fun readLineWithSpace(): List<Int> {
+    val input = readLine()
+    return input?.split(" ")?.map {
+        it.toInt()
+    } ?: arrayListOf()
+}
