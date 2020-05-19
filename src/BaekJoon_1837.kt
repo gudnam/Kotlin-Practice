@@ -4,7 +4,7 @@ data class PrimeNumbers(val p: Int, val q: Int)
 
 fun Int.primeNumbers(): PrimeNumbers {
     var p = 1
-    for (i in 2..1000) {
+    for (i in 2..this) {
         if (this%i == 0) {
             p = i
             break
