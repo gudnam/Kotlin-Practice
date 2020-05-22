@@ -1,4 +1,4 @@
-
+package baekjoon
 const val maxPrice = 2000
 const val minPrice = 100
 const val salePrice = 50
@@ -20,5 +20,5 @@ fun main(args: Array<String>) {
     val cheaperBuger = bugers.cheaper()
     val cheaperDrink = drinks.cheaper()
 
-    println("${cheaperBuger+cheaperDrink-salePrice}")
+    println("${cheaperBuger+cheaperDrink- salePrice}")
 }

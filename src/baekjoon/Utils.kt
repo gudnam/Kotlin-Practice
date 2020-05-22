@@ -1,3 +1,5 @@
+package baekjoon
+
 fun readLineNumberList(count: Int): MutableList<Int> {
     var things: MutableList<Int> = arrayListOf()
     for (i in 1..count) {

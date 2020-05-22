@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1712
+package baekjoon// https://www.acmicpc.net/problem/1712
 
 // A: 고정비용
 // B: 가변비용

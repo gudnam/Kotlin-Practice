@@ -1,4 +1,4 @@
-// 시작 시간 : 15:40
+package baekjoon// 시작 시간 : 15:40
 
 data class PrimeNumbers(val p: Int, val q: Int)
 
